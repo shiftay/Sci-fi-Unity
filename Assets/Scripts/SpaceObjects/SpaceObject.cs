@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+public enum SPACEOBJECT { PLANET, PLAYER, CLICKPLANE }
+
 public class SpaceObject : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
 {
-
+    public SPACEOBJECT type;
     public void OnPointerDown( PointerEventData eventData )
     {
     }
@@ -14,8 +16,9 @@ public class SpaceObject : MonoBehaviour, IPointerClickHandler, IPointerDownHand
     {
     }
  
-    public void OnPointerClick(PointerEventData data)  {
-        Debug.Log(this.name + " was clicked.");
+    public virtual void OnPointerClick(PointerEventData data)  {
+        
+        // OuterSpaceManager.instance.
     }
 
 
