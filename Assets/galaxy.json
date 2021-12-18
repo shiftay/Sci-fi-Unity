@@ -1,0 +1,19 @@
+{
+  "name": "I-V Major",
+  "rulingfaction": "Pred",
+  "planets": [
+    {
+      "name": "Centia",
+      "cities": [
+        {
+          "name": "Trixia",
+          "hasBountyOffice": true
+        },
+        {
+          "name": "Orthonos",
+          "hasBountyOffice": false
+        }
+      ]
+    }
+  ]
+}

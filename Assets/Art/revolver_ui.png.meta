@@ -109,10 +109,10 @@ TextureImporter:
       name: revolver_ui_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 380
-        width: 100
-        height: 100
+        x: 125
+        y: 406
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       name: revolver_ui_1
       rect:
         serializedVersion: 2
-        x: 114
-        y: 380
+        x: 224
+        y: 391
         width: 100
         height: 100
       alignment: 0
@@ -151,8 +151,8 @@ TextureImporter:
       name: revolver_ui_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 380
+        x: 334
+        y: 391
         width: 100
         height: 100
       alignment: 0
@@ -172,10 +172,10 @@ TextureImporter:
       name: revolver_ui_3
       rect:
         serializedVersion: 2
-        x: 334
-        y: 380
-        width: 100
-        height: 100
+        x: 0
+        y: 11
+        width: 124
+        height: 326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: revolver_ui_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 216
         y: 0
-        width: 124
-        height: 326
+        width: 348
+        height: 353
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 952a18d81455ad44d918c64aff8b627e
+    spriteID: f6d31b81b1bc8fa428cfa72faa2154dc
     internalID: 0
     vertices: []
     indices: 

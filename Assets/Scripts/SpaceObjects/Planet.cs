@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Planet : SpaceObject
 {
+    
 
     override public void OnPointerClick(PointerEventData data)  { 
         OuterSpaceManager.instance.ClickedObject(transform, this);
